@@ -15,8 +15,8 @@ Cada atendente pode atender **até 3 clientes simultaneamente**. Caso todos os a
 
 ### 1. Clonar o repositório
 ```bash
-git clone <seu-repo>
-cd <seu-repo>
+git clone https://github.com/CaMMelo/ubots-flowpay.git
+cd ubots-flowpay
 ```
 
 ### 2. Rodar a API
