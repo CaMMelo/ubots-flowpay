@@ -22,6 +22,7 @@ cd ubots-flowpay
 ### 2. Rodar a API
 ```bash
 docker compose up -d
+```
 
 
 A API estará disponível em:  
