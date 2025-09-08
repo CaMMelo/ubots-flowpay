@@ -1,0 +1,27 @@
+[project]
+name = "ubots"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "cmelo",email = "cmelo.marcelo.pereira@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi (>=0.116.1,<0.117.0)",
+    "uvicorn (>=0.35.0,<0.36.0)",
+    "pydantic (>=2.11.7,<3.0.0)",
+    "isort (>=6.0.1,<7.0.0)",
+    "black (>=25.1.0,<26.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "ubots", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+api = "ubots:main"
