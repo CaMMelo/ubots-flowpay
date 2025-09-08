@@ -22,10 +22,15 @@ cd ubots-flowpay
 ### 2. Rodar a API
 ```bash
 docker compose up -d
-```
+
 
 A API estará disponível em:  
 👉 `http://localhost`
+
+A Documentação da API estará em:  
+👉 `http://localhost/docs`
+ou
+👉 `http://localhost/redoc`
 
 ---
 
